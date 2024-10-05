@@ -33,7 +33,6 @@ export default function Pause() {
 
       const reader = response.body?.getReader();
       const decoder = new TextDecoder();
-      let result = "";
 
       reader?.read().then(function processText({
         done,
@@ -48,7 +47,6 @@ export default function Pause() {
             stream: true, 
           });
 
-          result += text; 
 
           setMessages((prevMessages) => {
             const lastMessage = prevMessages[prevMessages.length - 1]; 
