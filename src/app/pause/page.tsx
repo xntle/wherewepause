@@ -68,7 +68,7 @@ export default function Pause() {
 
   return (
     <div className="flex flex-col bg-white items-center justify-end min-h-screen p-6 fade-in">
-      <header className="w-full fixed top-2 left-0 bg-white">
+      <header className="w-full fixed top-0 pt-2 pb-2 left-0 bg-white">
           <Link href="/">
             <h1 className="text-2xl  text-center text-black font-bold cursor-pointer">wherewepause</h1>
           </Link>
